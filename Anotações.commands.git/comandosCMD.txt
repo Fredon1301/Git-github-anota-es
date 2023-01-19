@@ -1,0 +1,34 @@
+COMANDOS CMD GIT
+
+=====================
+
+
+dir = lista todos os arquivos no diretório atual
+cd .. = retrocede para o dirétorio anterior
+cd [nome da pasta] = entra dentro do diretório informado
+cls = limpa os textos
+mkdir [nome da pasta] = cria uma pasta no diretório atual
+echo [contéudo] > [nome do arquivo e extensão] = cria um arquivo no diretório atual
+del [nome do arquivo] = Deleta os arquivos selecionados
+rmdir [nome da pasta] /S /Q = apaga uma pasta em um diretório
+mv [nome do arquivo] ./[nome do diretorio do destino] = move o arquivo para outro diretório
+
+echo (String) | git hash-object --stdin = Cria um arquivo e usa o --stdin pra identificar que é um string, caso seja.
+
+sha1 = conjunto númerico identificador de 40 caracteres
+
+openssl sha1 [nome do arquivo] = retorna conjunto númerico identificador de 40 caracteres
+
+ls = lista arquivos do diretorio atual
+
+pwd = mostra o caminho até o diretorio atual
+
+git status = verifica o status dos arquivos do diretório atual
+
+git add = "printa" o arquivo que foi modificado, deixando o pronto pra ser commitado
+
+git commit -m "comentario" = é usado quando o arquivo está staged, e cria um commit.
+
+git push origin master = "joga" o arquivo no repositório remoto
+
+git pull origin master = baixa a outra versão modificada do repositório remoto, para resolver conflito
